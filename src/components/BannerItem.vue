@@ -1,6 +1,6 @@
 <template>
   <h1>
-    <RouterLink to="/">AWPV.dev</RouterLink>
+    <RouterLink to="/"><img src="/src/logo-placeholder.png" alt="" /></RouterLink>
   </h1>
   <div class="navbar">
     <nav>
