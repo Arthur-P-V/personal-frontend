@@ -4,12 +4,8 @@ import BannerItem from './components/BannerItem.vue'
 
 <template>
   <header>
-    <div class="wrapper">
-      <BannerItem />
-    </div>
+    <BannerItem></BannerItem>
   </header>
-
-  <RouterView />
 </template>
 
 <style scoped></style>

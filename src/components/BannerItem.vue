@@ -11,4 +11,9 @@
   </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+a {
+  text-decoration: none;
+  color: darkgreen;
+}
+</style>
