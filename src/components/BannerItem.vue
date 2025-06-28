@@ -1,19 +1,23 @@
 <template>
-  <h1>
-    <RouterLink to="/"><img src="/src/logo-placeholder.png" alt="" /></RouterLink>
-  </h1>
-  <div class="navbar">
-    <nav>
-      <RouterLink to="/">Home</RouterLink>
-      <RouterLink to="about">About</RouterLink>
-      <RouterLink to="test">Test</RouterLink>
-    </nav>
-  </div>
+  <h1 style="font-weight: bolder; padding-left: 0.5em">AWPV.dev</h1>
+  <nav class="navbar navbar-expand-lg" style="background-color: darkgray">
+    <div class="container-fluid">
+      <RouterLink class="navbar-brand" to="/"
+        ><img src="/src/logo-placeholder.png" alt=""
+      /></RouterLink>
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item h2"><RouterLink class="nav-link" to="/">Home</RouterLink></li>
+        <li class="nav-item h2"><RouterLink class="nav-link" to="about">About</RouterLink></li>
+        <li class="nav-item h2"><RouterLink class="nav-link" to="test">Test</RouterLink></li>
+      </ul>
+    </div>
+  </nav>
 </template>
 
 <style scoped>
 a {
+  font-weight: bolder;
   text-decoration: none;
-  color: darkgreen;
+  color: darkblue;
 }
 </style>

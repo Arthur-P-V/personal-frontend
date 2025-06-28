@@ -6,6 +6,12 @@ import BannerItem from './components/BannerItem.vue'
   <header>
     <BannerItem></BannerItem>
   </header>
+
+  <RouterView />
 </template>
 
-<style scoped></style>
+<style>
+body {
+  background-color: burlywood;
+}
+</style>
