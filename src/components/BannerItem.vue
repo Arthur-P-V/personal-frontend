@@ -1,6 +1,6 @@
 <template>
   <h1 style="font-weight: bolder; padding-left: 0.5em">AWPV.dev</h1>
-  <nav class="navbar navbar-expand-lg" style="background-color: darkgray">
+  <nav class="navbar navbar-expand-lg bg-tea">
     <div class="container-fluid">
       <RouterLink class="navbar-brand" to="/"
         ><img src="/src/logo-placeholder.png" alt=""
