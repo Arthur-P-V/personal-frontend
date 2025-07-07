@@ -7,13 +7,19 @@ import BannerItem from './components/BannerItem.vue'
     <BannerItem></BannerItem>
   </header>
 
-  <body class="bg-forest">
+  <body>
     <RouterView />
-    <button type="button" class="btn bg-chili">Primary</button>
-
   </body>
+
+  <footer class="bg-forest"></footer>
 </template>
 
 <style lang="scss">
   @import "./main.scss";
+
+  body {
+    min-height:100vh;
+  }
+
+
 </style>

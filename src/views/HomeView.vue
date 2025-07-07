@@ -1,7 +1,16 @@
 <script setup lang="ts"></script>
 
 <template>
-  <main>
+  <div class="home bg-forest">
     <h1>HELLO</h1>
-  </main>
+  </div>
+
 </template>
+
+
+<style>
+  .home {
+    min-height:100vh;
+    display:flex;
+  }
+</style>
