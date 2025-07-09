@@ -8,6 +8,7 @@
         <li class="nav-item h2"><RouterLink class="nav-link text-forest" to="/">Home</RouterLink></li>
         <li class="nav-item h2"><RouterLink class="nav-link text-forest" to="about">About</RouterLink></li>
         <li class="nav-item h2"><RouterLink class="nav-link text-forest" to="Posts">Posts</RouterLink></li>
+        <li class="nav-item h2"><RouterLink class="nav-link text-forest" to="Projects">Projects</RouterLink></li>
         <li class="nav-item h2"><RouterLink class="nav-link text-forest" to="Games">Games</RouterLink></li>
       </ul>
     </div>
