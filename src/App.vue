@@ -16,10 +16,4 @@ import BannerItem from './components/BannerItem.vue'
 
 <style lang="scss">
   @import "./main.scss";
-
-  body {
-    min-height:100vh;
-  }
-
-
 </style>
