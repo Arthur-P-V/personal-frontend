@@ -1,5 +1,5 @@
 <template>
-  <div class="container-fluid">
+  <div class="container-fluid p-0">
     <nav class="navbar navbar-expand-lg bg-rblack">
       <div class="container-fluid">
         <RouterLink class="navbar-brand" to="/"

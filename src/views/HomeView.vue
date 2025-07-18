@@ -4,10 +4,10 @@ import PostItem from '@/components/PostItem.vue'
 
 <template>
   <div class="home bg-forest">
-    <div class="container-fluid">
+    <div class="container-fluid p-0">
       <div class="row">
         <div class="col-8">
-          <div class="row intro-text">
+          <div class="row">
             <h1>Hi, I'm Arthur :)</h1>
             <h3>I like computers and stuff</h3>
           </div>
@@ -51,7 +51,7 @@ import PostItem from '@/components/PostItem.vue'
           </div>
         </div>
         <div class="col-4">
-          <img src="../Me.jpg" />
+          <img src="../Me.jpg" class="img-fluid" />
         </div>
       </div>
     </div>
@@ -65,9 +65,5 @@ import PostItem from '@/components/PostItem.vue'
 }
 h1 {
   font-size: 72pt;
-}
-.intro-text {
-  padding-top: 10vh;
-  padding-bottom: 15vh;
 }
 </style>

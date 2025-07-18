@@ -11,9 +11,9 @@ import BannerItem from './components/BannerItem.vue'
     <RouterView />
   </body>
 
-  <footer class="bg-forest"></footer>
+  <footer class="bg-rblack"></footer>
 </template>
 
 <style lang="scss">
-  @import "./main.scss";
+@import './main.scss';
 </style>
