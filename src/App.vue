@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import BannerItem from './components/BannerItem.vue'
+import FooterItem from './components/FooterItem.vue'
 </script>
 
 <template>
@@ -11,7 +12,7 @@ import BannerItem from './components/BannerItem.vue'
     <RouterView />
   </body>
 
-  <footer class="bg-rblack"></footer>
+  <footer class="bg-rblack"><FooterItem /></footer>
 </template>
 
 <style lang="scss">
