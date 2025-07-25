@@ -12,10 +12,10 @@ import PostItem from '@/components/PostItem.vue'
             <h3>I like computers and stuff</h3>
           </div>
           <div class="row">
-            <div class="container-sm">
-              <h1>Posts Carousel</h1>
+            <div class="container">
+              <h2>What I'm Talking About</h2>
               <div id="postCarousel" class="carousel slide">
-                <div class="carousel-inner">
+                <div class="carousel-inner container-sm w-50">
                   <div class="carousel-item active">
                     <PostItem />
                   </div>
@@ -52,7 +52,7 @@ import PostItem from '@/components/PostItem.vue'
           </div>
         </div>
         <div class="col-4">
-          <img src="../Me.jpg" class="img-fluid" />
+          <!-- <img src="../Me.jpg" class="img-fluid" />-->
         </div>
       </div>
     </div>
